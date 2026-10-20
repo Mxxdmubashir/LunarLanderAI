@@ -1,0 +1,4 @@
+model/run,episodes,mean_reward,std_reward,landing_indicators,indicator_percent,notes
+Original AI (comparison run),100,-2.63,37.92,8,8,Previous rough landing-state heuristic
+Improved AI (comparison run),100,258.74,46.34,85,85,Previous landing-state heuristic
+Improved AI (verification run),100,262.06,55.49,84,84,Stricter final-state check; still not a definitive success flag

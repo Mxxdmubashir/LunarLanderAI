@@ -1,0 +1,11 @@
+# How to use this portfolio pack
+
+1. Extract `LunarLanderAI_Portfolio_Pack.zip`.
+2. Copy the `scripts`, `graphs`, `reports`, and `README.md` into `D:\LunarLanderAI`. If Windows asks whether to merge folders, choose **Yes**. Keep existing model files and your `.venv` folder.
+3. Your model checkpoint should remain at `D:\LunarLanderAI\checkpoints\lander_1000352_steps.zip`.
+4. In VS Code terminal, run:
+   - `python scripts\08_watch_improved_ai.py` to watch the trained model.
+   - `python scripts\09_reward_hacking_demo.py` for the separate toy reward-hacking example.
+5. The PDF report and PNG charts are ready to use. Review the caveat that landing indicators are not definitive success labels before putting results in a presentation or CV.
+
+The scripts expect the existing virtual environment and trained checkpoint to remain in the original project folder.
